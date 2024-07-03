@@ -1,4 +1,4 @@
-const a = (a, b) => {
-  const result = a + b;
+const a = (...args) => {
+  const result = args[0] + args[1];
   return result;
 };
